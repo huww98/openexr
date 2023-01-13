@@ -137,7 +137,7 @@ public:
     //------------------------------------------------
 
     IMF_EXPORT
-    void setFrameBuffer (const Rgba* base, size_t xStride, size_t yStride);
+    void setFrameBuffer (const Rgba* base, ptrdiff_t xStride, ptrdiff_t yStride);
 
     //--------------------------
     // Access to the file header
@@ -352,7 +352,7 @@ public:
     //-----------------------------------------------------
 
     IMF_EXPORT
-    void setFrameBuffer (Rgba* base, size_t xStride, size_t yStride);
+    void setFrameBuffer (Rgba* base, ptrdiff_t xStride, ptrdiff_t yStride);
 
     //-------------------------------------------------------------------
     // Switch to a different layer -- subsequent calls to readTile()

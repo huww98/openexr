@@ -26,6 +26,7 @@
 #include <ImathBox.h>
 #include <ImathVec.h>
 #include <half.h>
+#include <cstddef>
 #include <string>
 
 OPENEXR_IMF_INTERNAL_NAMESPACE_HEADER_ENTER

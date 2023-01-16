@@ -28,6 +28,7 @@
 #include <half.h>
 
 #include <string>
+#include <cstddef>
 
 OPENEXR_IMF_INTERNAL_NAMESPACE_HEADER_ENTER
 

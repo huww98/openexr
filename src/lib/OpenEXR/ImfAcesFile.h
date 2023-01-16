@@ -54,6 +54,7 @@
 #include "ImfRgba.h"
 #include "ImfThreading.h"
 
+#include <cstddef>
 #include <string>
 
 OPENEXR_IMF_INTERNAL_NAMESPACE_HEADER_ENTER

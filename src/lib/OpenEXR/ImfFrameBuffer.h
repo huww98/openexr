@@ -21,6 +21,7 @@
 #include <ImathBox.h>
 
 #include <cstdint>
+#include <cstddef>
 #include <map>
 #include <string>
 
